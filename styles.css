@@ -1,0 +1,234 @@
+* {box-sizing: border-box;}
+
+header, nav, main, footer {display: block;}
+
+@media only screen and (max-width: 1024px) {
+	body {margin: 0px;
+	      padding: 0px;
+	      background-image: none;}
+	body #wrapper {min-width: 0px;
+		       width: auto;
+		       margin: 0px;
+		       box-shadow: none;}
+	body h1 {margin: 0px;}
+	body nav {width: auto;
+    		  padding: 0.5em;
+   		  float: none;}
+	body nav li {display: inline-block;}
+	body nav a {padding: 1em;}
+	body main {padding: 1em;
+	           margin-left: 0px;
+	           font-size: 90%;}
+	body footer {margin: 0px;}
+	body #home {margin-left: 0px;}
+	body #workout {margin-left: 0px;}
+	body #zuch {margin-left: 0px;}
+	body #salmon {margin-left: 0px;}
+	body #tofu {margin-left: 0px;}
+	body #nut {margin-left: 0px;}
+	body #recipes {margin-left: 0px;}
+}
+
+@media only screen and (max-width: 768px) {
+	body {padding: 0px;}
+	body h1 {height: 100%;
+		 font-size: 1.5em;
+		 padding-left: 0.3em;}
+	body nav {padding: 0em;}
+	body nav li {display: block;
+		     padding: 0.2em;
+		     margin: 0px;}
+	body nav a {padding: 0.2em;
+		    display: block;
+		    font-size:1.3em;
+		    border-bottom: 1px solid #330000;}
+	body main {padding-top: 0.1em;
+		   padding-right: 0.6em;
+		   padding-bottom: 0.1em;
+		   padding-left: 0.4em;
+	           margin-left: 0px;
+	           font-size: 90%;}
+	body footer {margin: 0px;}
+	body #home {display: none;}
+	body #workout {display: none;}
+	body #zuch {display: 0px;}
+	body #tofu {display: 0px;}
+	body #salmon {display: 0px;}
+	body #nut {display: 0px;}
+	body #recipes {display: 0px;}
+	body main #mobile {display: inline;}
+	body main #desktop {display: none;}
+}
+#content {background-image: url(background.jpg);
+	  background-repeat: no-repeat;
+	  background-size: 100% 100%;
+	  margin-left: auto;
+	  margin-right: auto;}
+
+#wrapper { background-color: #d5d8dc;
+	   margin-left: auto;
+	   margin-right: auto;
+	   width: 80%;}
+
+#home {background-image: url(home.jpg);
+	  background-repeat: no-repeat;
+	  background-size: 100% 100%;
+	  height: 300px;
+	  margin-left: 170px;}
+
+#workout {background-image: url(workout.jpg);
+	  background-repeat: no-repeat;
+	  background-size: 100% 100%;
+	  height: 300px;
+	  margin-left: 170px;}
+
+#zuch {background-image: url(zuch.jpg);
+	  background-repeat: no-repeat;
+	  background-size: 100% 100%;
+	  height: 400px;
+	  margin-left: 170px;}
+
+#tofu {background-image: url(tofu.jpg);
+	  background-repeat: no-repeat;
+	  background-size: 100% 100%;
+	  height: 400px;
+	  margin-left: 170px;}
+
+#salmon {background-image: url(salmon.jpg);
+	  background-repeat: no-repeat;
+	  background-size: 100% 100%;
+	  height: 400px;
+	  margin-left: 170px;}
+
+#recipes {background-image: url(recipes.jpg);
+	  background-repeat: no-repeat;
+	  background-size: 100% 100%;
+	  height: 400px;
+	  margin-left: 170px;}
+
+#nut {background-image: url(nut.jpg);
+	  background-repeat: no-repeat;
+	  background-size: 100% 100%;
+	  height: 400px;
+	  margin-left: 170px;}
+
+#mobile {display: none;}
+#desktop {display: inline;}
+
+main 	{ background-color: #FFFFFF;
+	  padding-right: 20px;  
+	  padding-left: 30px; 
+	  display: block;
+	  margin-left: 170px;
+	  padding-top: 1px;
+	  padding-bottom: 1px;}
+
+body	{ background-color: #FFFFFF;
+	  color:#666666;
+	  font-family: Times New Roman;}
+
+h1	{ background-color: #808b96;
+	  background-repeat: no-repeat;
+	  color:#FFFFFF;
+	  font-family: Times New Roman;
+	  padding-left: 20px;
+	  margin-bottom: 0; 
+	  margin-top: 0;
+	  padding-top: 15px;
+	  height: 60px;}
+
+nav ul {list-style-type: none;
+	padding-left: 0px;
+	margin: 0;}
+
+nav a {text-decoration: none;}
+nav a:link {color: #000033;}
+nav a:visited {color: #344873;}
+nav a:hover {color: #FFFFFF;}
+nav	{ background-color: #d5d8dc;
+	  font-weight: bold;
+	  width: 160px;
+	  padding-top: 20px;
+	  padding-right: 5px;
+	  padding-left: 20px;
+	  float: left;}
+
+nav2 ul {list-style-type: none;
+	padding-left: 0px;
+	margin: 0;}
+
+nav2 a {text-decoration: none;}
+nav2 a:link {color: #000033;}
+nav2 a:visited {color: #344873;}
+nav2 a:hover {color: #FFFFFF;}
+nav2	{ font-weight: bold;
+	  width: 160px;
+	  padding-top: 20px;
+	  padding-right: 5px;
+	  padding-left: 20px;
+	  float: left;}
+
+h2	{ color:#389534;
+	  font-family: Times New Roman;}
+
+footer 	{ background-color: #FFFFFF;
+	  text-align: center;
+	  font-style: italic;
+	  font-size: .70em;
+	  padding: 10px;
+	  margin-left: 170px;}
+
+.resort	{ color:#000033;
+	  font-size: 1.2em;}
+
+
+h3	{ color:#000033;}
+
+dt	{ color:#000033;
+	  font-weight: bold;}
+
+table {
+    border: 1px solid #3399cc;
+    border-collapse: collapse;
+    width: 90%;}
+
+text {text-align: center;}
+
+th, td {
+    padding: 5px;
+    border: 1px solid #3399cc;}
+
+
+tr:nth-of-type(even) {
+    background-color: #F5FAFC;}
+
+
+label { float: left;
+
+        display: block;
+
+        text-align: left;
+
+        width: 120px;
+
+	padding-right: 10px;
+}
+
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+input, textarea { display: block;
+
+                  margin-bottom: 20px;
+}
+input[type=submit]{margin-left:10em;}
+	  
+<bodystyle= "background-color:F5F5F5; color: #008080;">
